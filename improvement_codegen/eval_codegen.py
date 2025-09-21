@@ -1,6 +1,6 @@
 import os
 import json
-from agent import build_agent
+from agent import CursorGeneratedAgent
 
 def run_evaluation(query_file="queries.txt", output_file="results_codegen.json"):
     # Load queries
@@ -8,19 +8,18 @@ def run_evaluation(query_file="queries.txt", output_file="results_codegen.json")
         queries = [q.strip() for q in f.readlines() if q.strip()]
 
     # Build CodeGen agent
-    agent = build_agent()
+    agent = CursorGeneratedAgent()
 
     results = []
 
     for q in queries:
         try:
-            state = {"question": q, "data": None, "answer": ""}
-            result = agent.invoke(state)
+            answer = agent.ask(q)
             results.append({
                 "query": q,
-                "answer": result.get("answer", "⚠️ No answer returned")
+                "answer": answer
             })
-            print(f"✅ Query: {q}\n   → Answer: {result.get('answer', '⚠️ No answer')}\n")
+            print(f"✅ Query: {q}\n   → Answer: {answer}\n")
         except Exception as e:
             results.append({
                 "query": q,

@@ -1,0 +1,26 @@
+[
+  {
+    "query": "1. What are the feeds in the Pacific region with the highest clarity?",
+    "answer": "In the Pacific region, the feeds with the highest clarity are as follows:\n\n1. **Feed ID:** FD-PC7G3J\n   - **Clarity:** 8,294,400\n   - **Frame Rate:** 59.94\n   - **Resolution:** 3840 x 2160\n   - **Codec:** AV1\n\n2. **Feed ID:** FD-VSYEEF\n   - **Clarity:** 8,294,400\n   - **Frame Rate:** 29.97\n   - **Resolution:** 3840 x 2160\n   - **Codec:** H264\n\n3. **Feed ID:** FD-48CLOR\n   - **Clarity:** 8,294,400\n   - **Frame Rate:** 29.97\n   - **Resolution:** 3840 x 2160\n   - **Codec:** H265\n\n4. **Feed ID:** FD-R4V2YF\n   - **Clarity:** 8,294,400\n   - **Frame Rate:** 23.976\n   - **Resolution:** 3840 x 2160\n   - **Codec:** AV1\n\n5. **Feed ID:** FD-UJQ7IR\n   - **Clarity:** 8,294,400\n   - **Frame Rate:** 24.0\n   - **Resolution:** 3840 x 2160\n   - **Codec:** VP9\n\n6. **Feed ID:** FD-D4THTJ\n   - **Clarity:** 8,294,400\n   - **Frame Rate:** 50.0\n   - **Resolution:** 3840 x 2160\n   - **Codec:** MPEG2\n\n7. **Feed ID:** FD-8D150S\n   - **Clarity:** 8,294,400\n   - **Frame Rate:** 59.94\n   - **Resolution:** 3840 x 2160\n   - **Codec:** H265\n\n8. **Feed ID:** FD-6WRRMR\n   - **Clarity:** 8,294,400\n   - **Frame Rate:** 23.976\n   - **Resolution:** 3840 x 2160\n   - **Codec:** MPEG2\n\nAll these feeds share the same clarity value of 8,294,400, indicating they provide the highest clarity available in the Pacific region."
+  },
+  {
+    "query": "2. Which Pacific feed has the lowest latency?",
+    "answer": "To determine which Pacific feed has the lowest latency, we can examine the provided data for the \"LAT_MS\" (latency in milliseconds) values associated with each feed in the Pacific theater.\n\nThe feeds with their respective latencies are as follows:\n\n1. **FD-6V3UNG**: 137 ms\n2. **FD-USJOWU**: 139 ms\n3. **FD-BKM03C**: 160 ms\n4. **FD-LZNLEV**: 164 ms\n5. **FD-Z0EMRV**: 166 ms\n6. **FD-5M08H6**: 169 ms\n7. **FD-PC7G3J**: 173 ms\n8. **FD-7725FO**: 205 ms\n9. **FD-LLMZC3**: 214 ms\n10. **FD-075KTU**: 216 ms\n11. **FD-XZMKG6**: 232 ms\n12. **FD-48CLOR**: 234 ms\n13. **FD-0AZUP7**: 248 ms\n14. **FD-8D150S**: 250 ms\n15. **FD-R4V2YF**: 278 ms\n16. **FD-YDUZDU**: 331 ms\n17. **FD-IFQYG1**: 384 ms\n18. **FD-ERNNBE**: 402 ms\n19. **FD-CDARQ1**: 405 ms\n20. **FD-6WRRMR**: 436 ms\n21. **FD-8UQBW6**: 466 ms\n22. **FD-UJQ7IR**: 497 ms\n23. **FD-VSYEEF**: 505 ms\n24. **FD-BNLZGC**: 508 ms\n25. **FD-RDPA4X**: 527 ms\n26. **FD-D4THTJ**: 816 ms\n\nFrom this analysis, the feed with the lowest latency is **FD-6V3UNG**, which has a latency of **137 milliseconds**."
+  },
+  {
+    "query": "3. Are all Middle East feeds encrypted?",
+    "answer": "Not all Middle East feeds are encrypted. Out of the 20 feeds listed, 15 are encrypted (ENCR: true) while 5 are not encrypted (ENCR: false). This indicates that there is a mix of encrypted and unencrypted feeds in the Middle East region."
+  },
+  {
+    "query": "4. What is the frame rate range of the feeds in the Europe theater?",
+    "answer": "The frame rate range of the feeds in the Europe theater is from a minimum of 15.0 frames per second (fps) to a maximum of 60.0 fps. This indicates a variety of feed qualities, catering to different requirements and conditions within the theater."
+  },
+  {
+    "query": "5. List the top 3 feeds in the CONUS region by clarity.",
+    "answer": "In the CONUS region, the top three feeds ranked by clarity are as follows:\n\n1. **Feed ID: FD-EE28XC** - This feed has a clarity value of **8,294,400**.\n2. **Feed ID: FD-R5BNE1** - This feed also has a clarity value of **8,294,400**.\n3. **Feed ID: FD-153TAE** - This feed matches the previous two with a clarity value of **8,294,400**.\n\nAll three feeds share the same clarity value, making them tied for the top position in terms of clarity within the CONUS region."
+  },
+  {
+    "query": "6. Which codec is most commonly used in the Pacific theater feeds?",
+    "answer": "To determine the most commonly used codec in the Pacific theater feeds, we can analyze the provided data for the frequency of each codec.\n\nHere are the codecs used in the Pacific theater along with their counts:\n\n- **VP9**: 5 occurrences\n- **MPEG2**: 6 occurrences\n- **H264**: 3 occurrences\n- **H265**: 8 occurrences\n- **AV1**: 4 occurrences\n\nFrom this analysis, the codec that is most commonly used in the Pacific theater feeds is **H265**, which appears 8 times."
+  }
+]

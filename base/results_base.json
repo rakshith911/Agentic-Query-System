@@ -1,0 +1,22 @@
+[
+  {
+    "query": "1. What is the highest clarity feed in the Pacific region?",
+    "answer": "In the Pacific region, the highest clarity feed is identified by the feed ID \"FD-VSYEEF.\" This feed is characterized by the following details:\n\n- Frame Rate: 29.97 fps\n- Resolution: 3840 x 2160 (4K)\n- Codec: H264\n- Latency: 505 ms\n- Clarity Score: 8,294,400\n\nThis feed offers the best visual quality among all the feeds listed for the Pacific region."
+  },
+  {
+    "query": "2. Which Pacific feed has the lowest latency?",
+    "answer": "The Pacific feed with the lowest latency is the one identified by the Feed ID \"FD-Z0EMRV.\" It has a latency of 166 milliseconds. Here are some details about this feed:\n\n- **Theater**: PAC (Pacific)\n- **Frame Rate**: 15.0 frames per second\n- **Resolution**: 1920 x 1080 pixels\n- **Codec**: VP9\n- **Encrypted**: Yes\n- **Clarity**: 2,073,600\n\nThis feed has the best performance in terms of latency compared to other feeds in the data provided."
+  },
+  {
+    "query": "3. What is the average frame rate in the Pacific region?",
+    "answer": "In the Pacific region, there are three data points related to frame rates:\n\n1. A frame rate of **15.0 fps**\n2. A frame rate of **29.97 fps**\n3. Another frame rate of **29.97 fps**\n\nTo find the average frame rate, we add these values together and divide by the number of data points:\n\n- Total frame rates = 15.0 + 29.97 + 29.97 = **74.94 fps**\n- Number of frame rates = 3\n\nNow, calculating the average:\n\nAverage frame rate = Total frame rates / Number of frame rates = 74.94 / 3 \u2248 **24.98 fps**\n\nSo, the average frame rate in the Pacific region is approximately **25.0 fps**."
+  },
+  {
+    "query": "4. Which Europe feed has the highest latency?",
+    "answer": "The data provided shows multiple video feeds, including their latency and other technical specifications. \n\nFor the Europe feeds, the one with the highest latency is:\n- **Feed ID**: FD-HIPGAD\n- **Theater**: EUR\n- **Latency**: 425 milliseconds\n- **Frame Rate**: 15.0 frames per second\n- **Resolution**: 2560 x 1440\n- **Codec**: VP9\n\nThis feed has significantly higher latency compared to other Europe feeds listed, highlighting it as the slowest in that region."
+  },
+  {
+    "query": "5. What codecs are used in the Pacific region?",
+    "answer": "{\n  \"codec\": \"H265\",\n  \"profile\": \"main10\",\n  \"level\": \"5.1\",\n  \"preset\": \"slower\",\n  \"tune\": \"ssim\",\n  \"bit_depth\": 10,\n  \"chroma_subsampling\": \"4:2:0\",\n  \"color_primaries\": \"BT.709\",\n  \"transfer_characteristics\": \"BT.709\",\n  \"matrix_coeffs\": \"BT.709\",\n  \"framerate\": 59.94,\n  \"gop_size\": 120,\n  \"b_frames\": 4,\n  \"ref_frames\": 4,\n  \"intra_refresh\": true,\n  \"open_gop\": false,\n  \"rc_mode\": \"vbr\",\n  \"bitrate_kbps\": 8000,\n  \"max_bitrate_kbps\": 12000,\n  \"vbv_buf_ms\": 500,\n  \"vbv_init_pct\": 90,\n  \"aq_mode\": \"variance\",\n  \"aq_strength\": 1.0,\n  \"psy_rd\": 1.0,\n  \"me_method\": \"hex\",\n  \"me_range\": 32,\n  \"sc_detection\": true,\n  \"min_qp\": 12,\n  \"max_qp\": 42,\n  \"qp_i\": 22,\n  \"qp_p\": 24,\n  \"qp_b\": 26,\n  \"hdr_mode\": \"off\",\n  \"sar_num\": 1,\n  \"sar_den\": 1,\n  \"timecode\": \"00:00:00:00\",\n  \"timestamp_mode\": \"dts\",\n  \"svc_layers\": 1\n}"
+  }
+]
