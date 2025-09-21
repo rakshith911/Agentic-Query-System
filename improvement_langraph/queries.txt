@@ -1,0 +1,11 @@
+1. What are the feeds in the Pacific region with the highest clarity?
+
+2. Which Pacific feed has the lowest latency?
+
+3. Are all Middle East feeds encrypted?
+
+4. What is the frame rate range of the feeds in the Europe theater?
+
+5. List the top 3 feeds in the CONUS region by clarity.
+
+6. Which codec is most commonly used in the Pacific theater feeds?

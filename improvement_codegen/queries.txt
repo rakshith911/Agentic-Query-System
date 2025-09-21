@@ -1,0 +1,12 @@
+1. Which Pacific feeds have latency under 200 milliseconds and are also encrypted?
+
+2. Compare the average frame rate of feeds in the Pacific theater with those in the Europe theater. Which theater offers smoother streams on average?
+
+3. List all the codecs used in the Pacific region and the number of feeds using each codec.
+
+4. In the Pacific region, which feed provides the highest clarity while also maintaining latency below 300 milliseconds?
+
+5. Which feeds in the Pacific and Europe theaters share the same model tag, and what are their respective frame rates?
+
+6. Across all theaters, which feed has the best balance of clarity and latency (highest clarity among feeds with latency under 250 ms)?
+

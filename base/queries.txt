@@ -1,0 +1,9 @@
+1. What is the highest clarity feed in the Pacific region?
+
+2. Which Pacific feed has the lowest latency?
+
+3. What is the average frame rate in the Pacific region?
+
+4. Which Europe feed has the highest latency?
+
+5. What codecs are used in the Pacific region?
