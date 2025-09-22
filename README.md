@@ -1,4 +1,4 @@
-This is built for the purpose of Technical Assessment from CanyonCode.
+## This is built for the purpose of Technical Assessment from CanyonCode.
 
 I am building an agentic query system with the following technical requirements:
 1. Develop an agentic query application that answers natural language questions about camera feeds, encoders, and decoders
